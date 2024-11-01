@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://Assets/Materials/white.tres" type="Material" id=1]
+[ext_resource path="res://Assets/Materials/dark_darker.tres" type="Material" id=2]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=3]
+[ext_resource path="res://mods/HexedCyana.MaidOutfit/Assets/Models/Cosmetics/MaidOutfit.tres" type="ArrayMesh" id=4]
+[ext_resource path="res://mods/HexedCyana.MaidOutfit/Assets/Textures/maid_outfit.png" type="Texture" id=5]
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=6]
+
+[resource]
+script = ExtResource( 6 )
+name = "MaidDress"
+desc = "At your service! woof woof"
+title = ""
+icon = ExtResource( 5 )
+mesh = ExtResource( 4 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 3 )
+material = ExtResource( 1 )
+secondary_material = ExtResource( 2 )
+main_color = Color( 1, 1, 1, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "overshirt"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = true
+cost = 10
